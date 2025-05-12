@@ -12,7 +12,7 @@ In distributed systems, workloads and requests originate from multiple clients a
 
 ![Load Balancing Illustration](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5215d10-fcd8-4c50-acb6-ccbb36dea24f_832x1000.png)
 
-![Client-server-model](https://www.liquidweb.com/wp-content/uploads/2018/01/Client-server-model-1024x720.jpg)
+![Client-server-model](https://www.liquidweb.com/wp-content/uploads/2024/03/client-server-network-1024x653-1.avif)
 
 ## What is Load Balancing?
 
@@ -49,7 +49,7 @@ Dynamic load balancing considers the current state of the system to make decisio
 - **Weighted Least Connections**: Similar to Least Connections but considers server capacity.
 - **IP Hashing**: Uses client IP to determine the server, ensuring session persistence.
 
-![Load Balancer Topology](https://i.stack.imgur.com/TWMho.png)
+![Load Balancer Topology](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Load_Balancer_Diagram.svg/1200px-Load_Balancer_Diagram.svg.png)
 
 ---
 
@@ -81,7 +81,7 @@ The Domain Name System (DNS) distributes traffic by rotating the IP addresses re
 - **Cloud Infrastructure**: Platforms like AWS, Google Cloud, and Azure use load balancing to manage global traffic.
 - **Microservices Architecture**: Ensures efficient communication between services.
 
-![Microservices and Load Balancing](https://miro.medium.com/v2/resize:fit:1190/format:webp/1*QBVsxKRXPXylpXbVtU6zYQ.png)
+![Microservices and Load Balancing](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4YiKYTkjpRLAfIg23XxPpA.png)
 
 ---
 
