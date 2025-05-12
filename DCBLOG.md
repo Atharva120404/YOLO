@@ -3,10 +3,6 @@ title: "4.2 Load Balancing in Distributed Systems"
 author: "Atharva Dahegaonkar, Shrihari Mahabal, Tanvi Patil"
 date: "2025-05-12"
 ---
-![Load Balancing Illustration](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Load_balancer.svg/1200px-Load_balancer.svg.png)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Client-server-model.svg/1024px-Client-server-model.svg.png" width="600"/>
-<!-- Meta: This article explores Load Balancing in Distributed Systems, discussing its significance, techniques, algorithms, challenges, and real-world applications. -->
 
 # 4.2 Load Balancing in Distributed Systems
 
@@ -14,9 +10,9 @@ date: "2025-05-12"
 
 In distributed systems, workloads and requests originate from multiple clients and must be efficiently managed across numerous computing resources. **Load Balancing** ensures that no single node is overwhelmed while others remain underutilized, thereby optimizing resource use, maximizing throughput, minimizing response time, and avoiding overload.
 
-![Load Balancing Concept](https://miro.medium.com/v2/resize:fit:828/format:webp/1*wYGoOshUeh7EelF_JoJ4gQ.png)
+![Load Balancing Illustration](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5215d10-fcd8-4c50-acb6-ccbb36dea24f_832x1000.png)
 
----
+![Client-server-model](https://www.liquidweb.com/wp-content/uploads/2018/01/Client-server-model-1024x720.jpg)
 
 ## What is Load Balancing?
 
@@ -39,7 +35,7 @@ Load balancing algorithms can be broadly categorized into two types: **Static** 
 
 ### Static Load Balancing Algorithms
 
-Static load balancing involves predetermined assignment of tasks or resources without considering real-time variations in the system. This approach relies on a fixed allocation of workloads to servers or resources, and it doesn’t adapt to changes during runtime.
+Static load balancing involves predetermined assignment of tasks or resources without considering real-time variations in the system. This approach relies on a fixed allocation of workloads to servers or resources, and it doesn't adapt to changes during runtime.
 
 - **Round Robin**: Distributes requests in a circular order across servers.
 - **Weighted Round Robin**: Assigns weights to servers based on their capacity; servers with higher weights receive more requests.
@@ -53,7 +49,7 @@ Dynamic load balancing considers the current state of the system to make decisio
 - **Weighted Least Connections**: Similar to Least Connections but considers server capacity.
 - **IP Hashing**: Uses client IP to determine the server, ensuring session persistence.
 
-![Load Balancer Topology](https://www.nginx.com/wp-content/uploads/2020/05/nginx-load-balancing.jpg)
+![Load Balancer Topology](https://i.stack.imgur.com/TWMho.png)
 
 ---
 
@@ -85,7 +81,7 @@ The Domain Name System (DNS) distributes traffic by rotating the IP addresses re
 - **Cloud Infrastructure**: Platforms like AWS, Google Cloud, and Azure use load balancing to manage global traffic.
 - **Microservices Architecture**: Ensures efficient communication between services.
 
-![Microservices and Load Balancing](https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/microservices-on-aws-diagram.png)
+![Microservices and Load Balancing](https://miro.medium.com/v2/resize:fit:1190/format:webp/1*QBVsxKRXPXylpXbVtU6zYQ.png)
 
 ---
 
@@ -116,7 +112,7 @@ Load balancing is a cornerstone of scalable and resilient distributed systems. B
 ## References
 
 - [Load Balancing Approach in Distributed System | GeeksforGeeks](https://www.geeksforgeeks.org/load-balancing-approach-in-distributed-system/)
-- [Exploring Load Balancing in Distributed Systems - Medium](https://medium.com/%40truongbui95/load-balancing-in-distributed-systems-exploring-concepts-and-practical-demonstration-c3e911850067)
+- [Exploring Load Balancing in Distributed Systems - Medium](https://medium.com/@truongbui95/load-balancing-in-distributed-systems-exploring-concepts-and-practical-demonstration-c3e911850067)
 - [Load Balancing Algorithms | GeeksforGeeks](https://www.geeksforgeeks.org/load-balancing-algorithms/)
 - [What is Load Balancing? - AWS](https://aws.amazon.com/what-is/load-balancing/)
 
