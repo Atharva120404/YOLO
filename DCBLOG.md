@@ -12,7 +12,7 @@ In distributed systems, workloads and requests originate from multiple clients a
 
 ![Load Balancing Illustration](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5215d10-fcd8-4c50-acb6-ccbb36dea24f_832x1000.png)
 
-![Client-server-model](https://www.liquidweb.com/wp-content/uploads/2024/03/client-server-network-1024x653-1.avif)
+![Client-server-model](https://www.cloudflare.com/img/learning/security/glossary/client-server-model-diagram.png)
 
 ## What is Load Balancing?
 
@@ -49,7 +49,7 @@ Dynamic load balancing considers the current state of the system to make decisio
 - **Weighted Least Connections**: Similar to Least Connections but considers server capacity.
 - **IP Hashing**: Uses client IP to determine the server, ensuring session persistence.
 
-![Load Balancer Topology](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Load_Balancer_Diagram.svg/1200px-Load_Balancer_Diagram.svg.png)
+![Load Balancer Topology](https://www.nginx.com/wp-content/uploads/2020/03/load-balancing-diagram.png)
 
 ---
 
