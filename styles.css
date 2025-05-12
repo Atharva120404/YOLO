@@ -6,18 +6,30 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: transparent; /* Make the header transparent */
     color: white;
-    padding: 10px 0;
+    padding: 10px 20px;
+    position: absolute; /* Position it over the banner */
+    width: 100%; /* Ensure it spans the full width of the page */
+    z-index: 10; /* Ensure it stays on top of the image */
 }
 
+/* Navbar changes */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px 20px;
+    background-color: transparent; /* Remove navbar background */
 }
+#nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #000000;
 
+}
 nav h1 {
     margin: 0;
 }
@@ -28,26 +40,42 @@ nav ul {
     padding: 0;
     display: flex;
 }
+#phone-no { 
+    border:10px;
+    border-color: #007BFF;
 
-nav ul li {
-    margin-left: 20px;
 }
 
+nav ul li {
+    margin-left: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
 nav ul li a {
-    color: white;
+    
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
+}
+nav ul li a:hover {
+    
+    color: #48a9a6;
     text-decoration: none;
 }
 
 #banner {
     background: url('images/banner.jpg') no-repeat center center/cover;
     color: white;
-    padding: 329px 10px;
+    padding: 389px 10px;
     text-align: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .banner-content h2 {
     font-size: 3em;
-    
     margin: -153px 0 10px;
 }
 
@@ -125,49 +153,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-nav h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-}
 
 #tours {
     background-color: #f9f9f9;
@@ -208,26 +193,6 @@ section {
     font-size: 0.9em;
     color: #555;
 }
-
-.btn-secondary {
-    background-color: #28a745;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn-secondary:hover {
-    background-color: #218838;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-/* Add this to your existing styles.css */
 
 #contact {
     padding: 20px;
@@ -327,4 +292,3 @@ footer {
 .social-icon:hover {
     background-color: #555;
 }
-
