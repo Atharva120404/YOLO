@@ -3,7 +3,9 @@ title: "4.2 Load Balancing in Distributed Systems"
 author: "Atharva Dahegaonkar, Shrihari Mahabal, Tanvi Patil"
 date: "2025-05-12"
 ---
+![Load Balancing Illustration](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Load_balancer.svg/1200px-Load_balancer.svg.png)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Client-server-model.svg/1024px-Client-server-model.svg.png" width="600"/>
 <!-- Meta: This article explores Load Balancing in Distributed Systems, discussing its significance, techniques, algorithms, challenges, and real-world applications. -->
 
 # 4.2 Load Balancing in Distributed Systems
